@@ -6,7 +6,6 @@ themeToggle.addEventListener("click", () => {
     document.querySelector("footer").classList.toggle("dark-mode");
     document.querySelector(".contenedorElementos").classList.toggle("dark-mode");
 
-    // Cambiar el texto del botón según el tema
     if (document.body.classList.contains("dark-mode")) {
         themeToggle.textContent = "Modo Claro";
     } else {

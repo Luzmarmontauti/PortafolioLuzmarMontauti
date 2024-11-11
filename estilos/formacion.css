@@ -12,13 +12,13 @@ main {
     flex: 1; 
 }
 
-/* Estilos predeterminados (modo claro) */
+
 body {
     background-color: rgb(235, 234, 234);
     color: black;
 }
 
-/* Modo oscuro */
+
 body.dark-mode {
     background-color: #121212;
     color: white;
